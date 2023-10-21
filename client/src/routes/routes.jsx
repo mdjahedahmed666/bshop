@@ -39,7 +39,7 @@ import UpdateProduct from "../pages/UpdateProduct/UpdateProduct";
        {
         path: "/updateProduct/:id",
         element: <PrivateRoute><UpdateProduct/></PrivateRoute>,
-        loader: ({params}) => fetch(`https://server-iul79kjuo-mdjahedahmed12-gmailcom.vercel.app/product/${params.id}`)
+        loader: ({params}) => fetch(`serverbshop.vercel.app/product/${params.id}`)
        },
        {
         path: "/myCart",
