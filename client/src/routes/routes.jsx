@@ -39,7 +39,7 @@ import ProductCategory from "../pages/ProductCategory/ProductCategory";
        {
         path: "/updateProduct/:id",
         element: <PrivateRoute><UpdateProduct/></PrivateRoute>,
-        loader: ({params}) => fetch(`serverbshop.vercel.app/product/${params.id}`)
+        loader: ({params}) => fetch(`bshopserv.vercel.app/product/${params.id}`)
        },
        {
         path: "/myCart",
