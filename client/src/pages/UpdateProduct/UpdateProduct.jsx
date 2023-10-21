@@ -18,7 +18,7 @@ const UpdateProduct = () => {
     const updatedProduct = { name, brandName, type, price, photo, rating };
 
     //send data to the server
-    fetch(`serverbshop.vercel.app/product/${_id}`, {
+    fetch(`bshopserv.vercel.app/product/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",
