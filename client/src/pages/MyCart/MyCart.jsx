@@ -22,7 +22,7 @@ const MyCart = () => {
     }).then((result) => {
       if (result.isConfirmed) {
        
-        fetch(`serverbshop.vercel.app/addToCart/${_id}`,{
+        fetch(`bshopserv.vercel.app/addToCart/${_id}`,{
           method: 'DELETE'
         })
         .then((res) => res.json())
@@ -41,7 +41,7 @@ const MyCart = () => {
 
   };
   useEffect(() => {
-    fetch('serverbshop.vercel.app/myCart')
+    fetch('bshopserv.vercel.app/myCart')
       .then((res) => res.json())
       .then((data) => {
         const userCart = data.filter(user => user.userEmail===email);
