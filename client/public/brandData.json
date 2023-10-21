@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Apple",
+      "image": "https://i.ibb.co/WFc7zdc/sumudu-mohottige-b-Igpii04-UIg-unsplash.jpg",
+      "shortDescription": "Innovative technology company."
+    },
+    {
+      "id": 2,
+      "name": "Samsung",
+      "image": "https://i.ibb.co/r5tPTJn/jonathan-kemper-po-Sms2-Ezf-NY-unsplash.jpg",
+      "shortDescription": "Consumer electronics and appliances."
+    },
+    {
+      "id": 3,
+      "name": "Sony",
+      "image": "https://i.ibb.co/bBGSPWy/boliviainteligente-Hv4-KMUMQ4-Rw-unsplash.jpg",
+      "shortDescription": "Entertainment and electronics."
+    },
+    {
+      "id": 4,
+      "name": "Asus",
+      "image": "https://i.ibb.co/GRK1zqq/360-F-291938662-Yts-Sx-HFflbfk-KEZDBe-Bv-PA8wfo-CZqka-F.jpg",
+      "shortDescription": "Computers and hardware."
+    },
+    {
+      "id": 5,
+      "name": "Toshiba",
+      "image": "https://i.ibb.co/bzqcDCV/download-1.jpg",
+      "shortDescription": "Electronics and technology solutions."
+    },
+    {
+      "id": 6,
+      "name": "Lenovo",
+      "image": "https://i.ibb.co/RGXJSg5/cool-metallic-lenovo-official-logo-0f4a8js3rrbdafg6.jpg",
+      "shortDescription": "Computers and technology."
+    }
+  ]
