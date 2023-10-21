@@ -17,7 +17,7 @@ const AddProduct = () => {
         const newProduct = {name, brandName, type, price, shortDescription, photo, rating}
 
         //send data to the server
-        fetch('serverbshop.vercel.app/products', {
+        fetch('bshopserv.vercel.app/products', {
             method: "POST",
             headers: {
                 "content-type": "application/json"
