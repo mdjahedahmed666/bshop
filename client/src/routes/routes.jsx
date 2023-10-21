@@ -7,11 +7,11 @@ import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import AddProduct from "../pages/AddProduct/AddProduct";
-import ProductCategory from "../pages/productCategory/productCategory";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
 import MyCart from "../pages/MyCart/MyCart";
 import PrivateRoute from "./PrivateRoute";
 import UpdateProduct from "../pages/UpdateProduct/UpdateProduct";
+import ProductCategory from "../pages/ProductCategory/ProductCategory";
 
 
   const router = createBrowserRouter([
