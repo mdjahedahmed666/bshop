@@ -9,7 +9,7 @@ const port = process.env.PORT || 5000;
 //Middleware
 app.use(cors(
   {
-    origin: [""],
+    origin: ["https://bshopfronnt.vercel.app"],
     "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     credentials:true
   }
