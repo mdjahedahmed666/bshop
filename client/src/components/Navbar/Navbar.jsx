@@ -12,7 +12,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (user && user?.email) {
-      fetch('https://server-iul79kjuo-mdjahedahmed12-gmailcom.vercel.app/users')
+      fetch('serverbshop.vercel.app/users')
         .then((res) => res.json())
         .then((data) => {
           console.log(data);
