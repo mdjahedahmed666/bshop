@@ -26,7 +26,7 @@ if (!passwordRegex.test(password)) {
 }
 
 //send data to the server
-fetch('serverbshop.vercel.app/users', {
+fetch('bshopserv.vercel.app/users', {
   method: "POST",
   headers: {
       "content-type": "application/json"
